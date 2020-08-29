@@ -335,6 +335,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -692,11 +693,15 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #2F2F2F!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.cta-hero:hover {
+    text-decoration: underline;
 }
 
 .social {
@@ -753,12 +758,15 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(47, 47, 47, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
+}
+
+.bold-link:hover {
     text-decoration: underline!important;
 }
 
@@ -780,12 +788,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #2F2F2F!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #2F2F2F!important;
 }
 
 .ltc-white {
@@ -1039,4 +1047,25 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+
+
+.acces--text {
+    background-color: #2f2f2f;
+    border-radius: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5%;
+}
+
+.acces--text__color {
+    color: #2f2f2f!important;
+}
+
+.acces--text__height {
+    font-size: 1.3em;
+    font-style: italic;
 }
