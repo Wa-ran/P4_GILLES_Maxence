@@ -1029,6 +1029,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .black-background {
+        padding: 5px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1053,7 +1056,7 @@ h4 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 5%;
+    padding: 3%;
 }
 
 .acces--text__color {
