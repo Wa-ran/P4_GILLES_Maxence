@@ -1045,6 +1045,25 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .bloc .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    header.bloc .container {
+        padding: 0;
+    }
+    .navbar .nav {
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .row {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
