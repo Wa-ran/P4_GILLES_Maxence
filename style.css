@@ -1175,16 +1175,15 @@ a.scrollToTop::after {
     opacity: 0;
 }
 /* bouton envoyer */
-button[type="submit"]  {
+button[type="submit"]>span  {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: auto;
 }
-button[type="submit"]::after {
+button[type="submit"]>span::after {
     content: "";
     position: absolute;
-    bottom: 140px;
     width: 80px;
     height: 21px;
     margin: auto;
@@ -1192,7 +1191,7 @@ button[type="submit"]::after {
     opacity: 0;
 }
 
-a:hover::after, a:focus::after, button:hover::after, button:focus::after {
+a:hover::after, a:focus::after, button:hover>span::after, button:focus>span::after {
     animation: link 2s infinite alternate backwards;
 }
 
