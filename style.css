@@ -1029,13 +1029,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .black-background {
-        padding: 5px;
-    }
 }
 
 @media (max-width: 400px) {
     .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 600px) {
+    .black-background {
         padding-left: 0;
         padding-right: 0;
     }
