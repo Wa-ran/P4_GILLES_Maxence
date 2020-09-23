@@ -1031,6 +1031,9 @@ h4 {
     }
 }
 
+
+/* --- MaJ by Wa-ran for SEO and Accessibility --- */
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1111,7 +1114,7 @@ h4 {
         transform-origin: right;
     }
 }
-/* liens navigation */
+/* Liens navigation */
 nav li > a::after {
     content: "";
     position: absolute;
@@ -1122,7 +1125,7 @@ nav li > a::after {
     border-bottom: #2f2f2f solid 2px;
     opacity: 0;
 }
-/* lien logo */
+/* Lien logo */
 a.navbar-brand::after {
     content: "";
     position: absolute;
@@ -1132,7 +1135,7 @@ a.navbar-brand::after {
     border-bottom: #2f2f2f solid 2px;
     opacity: 0;
 }
-/* liens réseaux sociaux */
+/* Liens réseaux sociaux */
 a.social {
     display: flex;
     justify-content: center;
@@ -1149,7 +1152,7 @@ a.social::after {
     border-bottom: #2f2f2f solid 2px;
     opacity: 0;
 }
-/* lien bouton contact */
+/* Lien bouton contact */
 a.btn {
     display: flex;
     justify-content: center;
@@ -1177,7 +1180,7 @@ a.scrollToTop::after {
     border-bottom: #2f2f2f solid 2px;
     opacity: 0;
 }
-/* bouton envoyer */
+/* Bouton envoyer */
 button[type="submit"]>span  {
     display: flex;
     justify-content: center;
@@ -1193,12 +1196,12 @@ button[type="submit"]>span::after {
     border-bottom: #2f2f2f solid 2px;
     opacity: 0;
 }
-
+/* Gestion des focus */
 a:hover::after, a:focus::after, button:hover>span::after, button:focus>span::after {
     animation: link 2s infinite alternate backwards;
 }
 
-/* pour le bouton navigation */
+/* Pour le bouton navigation */
 @keyframes button {
     0% {
         transform : scaleX(1);
